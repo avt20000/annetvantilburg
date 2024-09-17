@@ -1,0 +1,116 @@
+.bodystyle{
+    background-color:blanchedalmond
+}
+
+a:link {
+    color:#736F36;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #642b35;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #734E38;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #736F36;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.h1{
+    color:#736F36;
+    font-size: 60px;
+    text-align: left; 
+    margin-left: 125px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.h2{
+    color:#734E38;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 125px;
+    padding-bottom:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.h3{
+    color:#736F36;
+    font-size: 70px;
+    text-align: left;
+    margin-left: 125px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.button{
+    color:#734E38;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.home{
+    color:#734E38;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 125px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.h4{
+    color:#734E38;
+    font-size: 50px;
+    text-align: left;
+    line-height: 25px;
+    margin-left: 125px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.h5{
+        color:#736F36;
+        font-size: 200px;
+        text-align: left; 
+        margin-left: 125px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: bold;
+        padding-bottom: 30px;
+}
