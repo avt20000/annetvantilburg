@@ -74,7 +74,10 @@ a:link {
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 .home{
     color:#734E38;
