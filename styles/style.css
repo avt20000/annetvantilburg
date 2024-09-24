@@ -75,7 +75,9 @@ a:link {
 .button{
     color:#734E38;
     font-size: 60px;
-    text-align: center;
+    text-align:center;
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 30px;
     font-family: nitti-grotesk;
     font-weight: 400;
@@ -98,6 +100,7 @@ a:link {
     font-style: normal;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span;
 
 
 }
