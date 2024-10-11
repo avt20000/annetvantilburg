@@ -1,6 +1,16 @@
-.bodystyle{
-    background-color:blanchedalmond
+.border{
+  display: box;
+  background: red;
+  width: 175px;
+  height: auto;
 }
+
+.bodystyle{
+    background-color:blanchedalmond;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 
 a:link {
     color:#736F36;
@@ -35,7 +45,6 @@ a:link {
     color:#736F36;
     font-size: 60px;
     text-align: left; 
-    margin-left: 200px;
     margin-top: 50px;
     font-family: nitti-grotesk;
     font-style: bold;
@@ -49,8 +58,6 @@ a:link {
     font-size: 25px;
     text-align: left;
     line-height: 35px;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-bottom:30px;
     font-family: nitti-grotesk;
     font-weight: 400;
@@ -62,8 +69,6 @@ a:link {
     color:#736F36;
     font-size: 80px;
     text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: vandertak-rough;
@@ -74,10 +79,8 @@ a:link {
 
 .button{
     color:#734E38;
-    font-size: 60px;
+    font-size: 55px;
     text-align:center;
-    margin-left: 200px;
-    margin-right: 200px;
     padding: 30px;
     font-family: nitti-grotesk;
     font-weight: 400;
@@ -85,6 +88,8 @@ a:link {
     text-decoration: none;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+
 }
 
 
@@ -93,16 +98,29 @@ a:link {
     font-size: 25px;
     text-align: left;
     margin-top: 50px;
-    margin-left: 200px;
     padding-bottom: 30px;
     font-family: nitti-grotesk;
     font-weight: 400;
     font-style: normal;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: span;
+    position: fixed;
+    left: 10%;
+    bottom: 10%;
 
 
+}
+
+.forward{
+  color:#734E38;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  font-family: nitti-grotesk;
+  font-weight: 400;
+  font-style: normal;
+  position: fixed;
+  left: 80%;
+  bottom: 10%;
 }
 
 .h4{
@@ -110,8 +128,6 @@ a:link {
     font-size: 50px;
     text-align: left;
     line-height: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
     margin-top: 50px;
     padding-bottom: 30px;
     font-family: nitti-grotesk;
@@ -131,9 +147,136 @@ a:link {
 
 .styleguide{
   width: 50%;
-  margin-left: 200px;
-  margin-right:200px;
+
  
 
 }
+.e1i0{
+  max-width: 50%;
+  margin-top: 50px;
+  margin-right: 200px;
+  cursor: pointer;
+
+
+}
+.e1i1{
+  max-width: 50%;
+  margin-left: -100px;
+  margin-right: 200px;
+
+}
+
+
+.hide {
+  display: none;
+  
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  
+  
+}
+
+.me {
+  position: fixed;
+  left: 60%;
+  bottom: 35%;
+  animation: Spin 3s linear infinite;
+}
+
+@keyframes Spin {
+  from {
+    transform: rotate(0deg);
+
+  }
+  to {
+    transform: rotate(360deg);
+   
+  }
+}
+
+
+.text{
+  color:white;
+  font-size: 50px;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 400px;
+  margin-left: 250px;
+  padding-bottom: 30px;
+  font-family: nitti-grotesk;
+  font-weight: 400;
+  font-style: normal;
+ 
+
+}
+
+.button2{
+  color: white;
+  font-size: 25px;
+  text-align:center;
+  padding: 30px;
+  font-family: nitti-grotesk;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  position: fixed;
+  left: 75%;
+  bottom: 5%;
+}
+
+.eyel{
+  position: fixed;
+  left: 13%;
+  bottom: 60%;
+  animation: Shift 3s linear infinite;
+}
+
+.eyer{
+  position: fixed;
+  left: 43%;
+  bottom: 46%;
+  animation: Shift 3s linear infinite;
+}
+
+@keyframes Shift {
+  0% {
+    transform: translateX(-20px);
+
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(-20px);
+  
+  }
+  75% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
+    
+   
+  }
+}
+
+.h1e2{
+  color:black;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: nitti-grotesk;
+  font-style: bold;
+  font-weight: 800;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+
+
 
