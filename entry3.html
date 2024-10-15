@@ -7,13 +7,52 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/cyt5oas.css">
     <link rel="icon" type="image/png" href="./images/ratfavicon.png" />
+    <style>
+        body {
+          background-image: url(./images/street.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+        }
+        
+        </style>
+        
+
         
   </head>
-<body class="bodystyle">
-    <div class="home"><a style="text-decoration:none" href=index.html>Back</a>
-        <a style="text-decoration:none" href=entry4.html>Forward</a></div>
+<body>
+    
+  <script>
+    function play(audio_id) {
+      var audioElements = document.querySelectorAll("audio");
+    
+      var audioss = document.getElementById(audio_id);
+      audioss.play();
+    }
+  </script>
+
+<div class="h1e3">Then, of course, I noticed the noise!</div>
+
+<div onclick="play('audio1')">
+    <img class="cop" src="./images/cop.png" />
+    <audio id="audio1" src="./audio/siren.mp3"></audio></div>
+
+    <div onclick="play('audio2')">
+        <img class="bird" src="./images/bird.png" />
+        <audio id="audio2" src="./audio/pigeons.mp3"></audio></div>
+
+    
+     <div onclick="play('audio3')">
+        <img class="dog" src="./images/guydog.png" />
+        <audio id="audio3" src="./audio/dog.mp3"></audio></div>
+
+  
+    <div onclick="play('audio4')">
+        <img class="ac" src="./images/call.png" />
+        <audio id="audio4" src="./audio/ac.mp3"></audio></div>
+       
    
-    <div class="h4">The <i>third thing</i> I noticed was all the</div>
-    <div class="h5">Underground Stores</div>
-    <div class="h2">STORES ARE NOT MEANT TO BE BELOW GROUND LEVEL HUMANS ARE NOT MEANT TO BE UNDERGROUND GET ME OUTTA HEREEEEEEEE</div>
+    
+    <div class="home3"><a style="text-decoration:none" href=entry2.html>Back</a></div>       
+    <div class="forward3"><a style="text-decoration:none" href=entry4.html>Forward</a></div>
 </body>
