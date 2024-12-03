@@ -121,9 +121,9 @@ a:link {
     color:#734E38;
     font-size: 50px;
     text-align: left;
-    line-height: 25px;
+    line-height: 50px;
     margin-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-family: nitti-grotesk;
     font-weight: 400;
     font-style: normal;
@@ -567,24 +567,30 @@ a:link {
 
 .face{
   width: 500px;
-  display: block;
+  display: absolute left;
   margin-top: 200px;
   margin-left: -100px;
   margin-bottom: 0;
+  z-index: 3;
 
 }
 
 .speech5{
   width: 400px;
-  display: block;
-  margin-top: -700px;
+  display: absolute;
+  margin-top: -3000px;
   margin-left: 350px;
+  z-index: 2;
   &:hover{
   cursor: pointer;
   transform: rotate(15deg);
   }
 
 
+}
+
+.subwaycar{
+  
 }
 
 .video{
@@ -616,6 +622,21 @@ a:link {
   line-height: 75px;
   font-size: 30px;
   margin-bottom: 20px;
+
+}
+.cellindex{
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  object-position: center;
+  object-fit: contain;
+  line-height: 75px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  &:hover{
+    cursor: pointer;
+    transform: rotate(10deg) scale(1.5);
+  }
 
 }
 
@@ -879,16 +900,40 @@ padding: 20px;;
 
 
 .e9cell{
-  margin: 20px;
-  width: 150px;
+  margin: 5px;
   height: 250px;
-  background-color: #ff8c00;
   position: relative;
   left: 42%;
-  margin-top: 270px;
+  margin-top: -50px;
   display: inline-block;
   vertical-align: middle;
+  &:hover{
+    animation: rotate linear infinite 3s;
+    cursor: pointer;
+  }
 }
+
+@keyframes rotate{
+  0% {
+     transform: rotate(0deg);
+   
+   }
+   25% {
+     transform: rotate(90deg);
+   }
+   50% {
+     transform: rotate(180deg);
+   }
+   75% {
+     transform: rotate(270deg);
+   }
+ 
+   100% {
+     transform: rotate(360deg);
+     
+   }
+ }
+ 
 
 
 .e100{
