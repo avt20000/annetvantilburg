@@ -212,7 +212,7 @@ a:link {
   color:white;
   font-size: 50px;
   text-align: left;
-  line-height: 25px;
+  line-height: 50px;
   margin-top: 400px;
   margin-left: 250px;
   padding-bottom: 30px;
@@ -934,7 +934,71 @@ padding: 20px;;
    }
  }
  
+.car{
+  width: 50%;
+  position: fixed;
+  overflow: hidden;
+  right: -50%;
+  animation: car linear infinite 5s;
 
+
+
+}
+
+.car2{
+  width: 50%;
+  position: fixed;
+  overflow: hidden;
+  top: 5%;
+  left: -50%;
+  animation: car2 linear infinite 5s;
+
+
+
+}
+
+
+@keyframes car{
+  0% {
+     transform: translateX(0%);
+   
+   }
+   25% {
+     transform: translateX(-180%);
+   }
+   50% {
+     transform: translateX(-360%);
+   }
+   75% {
+     transform: translateX(-540%);
+   }
+ 
+   100% {
+     transform: translateX(-900%);
+     
+   }
+ }
+ 
+ @keyframes car2{
+  0% {
+     transform: translateX(0%);
+   
+   }
+   25% {
+     transform: translateX(180%);
+   }
+   50% {
+     transform: translateX(360%);
+   }
+   75% {
+     transform: translateX(540%);
+   }
+ 
+   100% {
+     transform: translateX(900%);
+     
+   }
+ }
 
 .e100{
   width: 50%;
