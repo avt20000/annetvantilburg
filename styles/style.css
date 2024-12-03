@@ -567,7 +567,7 @@ a:link {
 
 .face{
   width: 500px;
-  display: absolute left;
+  display: block;
   margin-top: 200px;
   margin-left: -100px;
   margin-bottom: 0;
@@ -577,8 +577,8 @@ a:link {
 
 .speech5{
   width: 400px;
-  display: absolute;
-  margin-top: -3000px;
+  display: block;
+  margin-top: -500px;
   margin-left: 350px;
   z-index: 2;
   &:hover{
@@ -590,7 +590,7 @@ a:link {
 }
 
 .subwaycar{
-  
+
 }
 
 .video{
@@ -908,28 +908,28 @@ padding: 20px;;
   display: inline-block;
   vertical-align: middle;
   &:hover{
-    animation: rotate linear infinite 3s;
+    animation: rotate linear infinite 2s;
     cursor: pointer;
   }
 }
 
 @keyframes rotate{
   0% {
-     transform: rotate(0deg);
+     opacity: 1;
    
    }
    25% {
-     transform: rotate(90deg);
+     opacity: 0.5;
    }
    50% {
-     transform: rotate(180deg);
+     opacity: 0.1;
    }
    75% {
-     transform: rotate(270deg);
+     opacity: 0.5;
    }
  
    100% {
-     transform: rotate(360deg);
+     opacity: 1;
      
    }
  }
